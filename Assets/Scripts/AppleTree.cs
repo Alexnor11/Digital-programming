@@ -4,15 +4,36 @@ using UnityEngine;
 
 public class AppleTree : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [Header("Set in Inspector")]
+    // Шаблон для создания я блок
+    public GameObject appPrefab;
+    // Скорость дыижения яблок
+    public float speed = 1f;
+    // Расстояние, направление движение яилони
+    public float leftAndRightEge = 10f;
+    // случайное изменения направления движения
+    public float chanceToChangeDirections = 0.1f;
+    // Частота создания яблок
+    public float secondsBetweenAppleDrops = 1f;
+
     void Start()
     {
         
     }
-
-    // Update is called once per frame
+        
     void Update()
     {
-        
+        Vector3 pos = transform.position;
+        pos.x += speed * Time.deltaTime;
+        transform.position = pos;
+
+        if (pos.x > leftAndRightEge)
+        {
+            speed = -Mathf.Abs(speed); // Начать движение влево
+        }
+        else if (pos.x < -leftAndRightEge)
+        {
+            speed = Mathf.Abs(speed); // Начать движение вправо
+        }
     }
 }

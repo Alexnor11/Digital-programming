@@ -117,6 +117,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2689587107216017758}
   - component: {fileID: 3857648047592288360}
+  - component: {fileID: -2838157484209507559}
   m_Layer: 0
   m_Name: AppleTree
   m_TagString: Untagged
@@ -168,6 +169,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &-2838157484209507559
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6944677938230065766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f950be4986f94049ac5f226784d61ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  appPrefab: {fileID: 0}
+  speed: 1
+  leftAndRightEge: 10
+  chanceToChangeDirections: 0.1
+  secondsBetweenAppleDrops: 1
 --- !u!1 &7868011890058233416
 GameObject:
   m_ObjectHideFlags: 0
