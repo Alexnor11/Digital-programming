@@ -321,6 +321,14 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     - target: {fileID: -2838157484209507559, guid: 9ac7f71312a79f940817b7d76530c294, type: 3}
+      propertyPath: appPrefab
+      value: 
+      objectReference: {fileID: 2862240075487097783, guid: d928034ccef7f5841913d9aff884e931, type: 3}
+    - target: {fileID: -2838157484209507559, guid: 9ac7f71312a79f940817b7d76530c294, type: 3}
+      propertyPath: applePrefab
+      value: 
+      objectReference: {fileID: 2862240075487097783, guid: d928034ccef7f5841913d9aff884e931, type: 3}
+    - target: {fileID: -2838157484209507559, guid: 9ac7f71312a79f940817b7d76530c294, type: 3}
       propertyPath: leftAndRightEge
       value: 20
       objectReference: {fileID: 0}
@@ -367,6 +375,10 @@ PrefabInstance:
     - target: {fileID: 2689587107216017758, guid: 9ac7f71312a79f940817b7d76530c294, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3857648047592288360, guid: 9ac7f71312a79f940817b7d76530c294, type: 3}
+      propertyPath: m_IsKinematic
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6944677938230065766, guid: 9ac7f71312a79f940817b7d76530c294, type: 3}
       propertyPath: m_Name
